@@ -1,7 +1,7 @@
 const code = `
     document.querySelector("[data-bind='click:refresh']").click();
     showClaim = document.querySelector("[data-bind='click:ShowClaim']");
-    if(showClaim!==undefined){
+    if(showClaim!==null){
         showClaim.click();
         console.log("Claimed");
     }
